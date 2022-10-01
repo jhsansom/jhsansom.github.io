@@ -5,7 +5,6 @@ highlighter:      pygments
 # Permalinks
 permalink:        pretty
 url:              'https://jhsansom.github.io/'
-baseurl:          'jhsansom.github.io/'
 
 # Setup
 title:            Jake Sansom
