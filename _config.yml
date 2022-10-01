@@ -20,7 +20,7 @@ plugins:
 
 relative_links:
   enabled:        true
-  collections:    false
+  collections:    true
 
 # Custom vars
 version:          2.1.0
