@@ -15,5 +15,12 @@ author:
 
 paginate:         5
 
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled:        true
+  collections:    false
+
 # Custom vars
 version:          2.1.0
