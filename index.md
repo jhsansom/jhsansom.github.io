@@ -9,5 +9,5 @@ I am currently a graduate student in the University of Michigan's Computer Scien
 
 # Papers
 
-[[https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/Thesis.pdf](pdf)] My unpublished senior thesis: “Cognitive Processes: A Whiteheadian Perspective”
+[[pdf](https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/Thesis.pdf)] My unpublished senior thesis: “Cognitive Processes: A Whiteheadian Perspective”
 
