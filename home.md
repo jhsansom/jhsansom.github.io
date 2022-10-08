@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About Me
+layout: default
+title: Home
 ---
 
 <img src="https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/pages/profile.JPG">

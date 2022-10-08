@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="pages">
-  {% for page in paginator.pages %}
-  <div class="page">
-    {{ page.content }}
-  </div>
-  {% endfor %}
-</div>
-
 
 <div class="posts">
   {% for post in paginator.posts %}
