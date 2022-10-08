@@ -3,9 +3,14 @@ layout: default
 title: Home
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
-<zero-md src="aboutme.md"></zero-md>
+<div class="pages">
+  {% for page in paginator.pages %}
+  <div class="page">
+    {{ page.content }}
+  </div>
+  {% endfor %}
+</div>
+
 
 <div class="posts">
   {% for post in paginator.posts %}
