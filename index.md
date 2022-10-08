@@ -9,7 +9,7 @@ This website is a work in progress. Please bear with me as I add more content.
 
 <img src="https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/profile.JPG">
 
-I am currently a graduate student in the University of Michigan's Computer Science and Engineering program. Please feel free to contact me:
+I am currently a graduate student in the University of Michigan's Computer Science and Engineering program. Please feel free to contact me! Here are some potentially useful links:
 
 - [Email](mailto:jhsansom@umich.edu)
 - [LinkedIn](https://www.linkedin.com/in/jhsansom/)
