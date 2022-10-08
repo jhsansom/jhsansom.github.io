@@ -11,7 +11,7 @@ This website is currently a work in progress. Please bear with me as I add conte
 
 I am currently a graduate student in the University of Michigan's Computer Science and Engineering program. Please feel free to contact me:
 
-- [Email](jhsansom@umich.edu)
+- [Email](mailto:jhsansom@umich.edu)
 - [LinkedIn](https://www.linkedin.com/in/jhsansom/)
 - [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=wsoqyloAAAAJ&gmla=AJsN-F4IJi8f-SthCDCYqZHK9Wjl_z_4yaaO4py2ZPbVkFHMbdi3TY4zWfnv14pf3M3IyCSGzhaZjTDglT5jew_HJFiQ2ZufLXJWlGwMyh4oxZxIiUbF_EM)
 
