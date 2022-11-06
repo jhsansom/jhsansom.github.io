@@ -20,7 +20,7 @@ I am currently a graduate student in the University of Michigan's Computer Scien
 
 # Papers and Publications
 
-| Links      | Publication |
+| Link     | Citation                        |
 | ----------- | ----------- |
 | [[pdf](https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/Thesis.pdf)] | My unpublished senior thesis: “Cognitive Processes: A Whiteheadian Perspective”    |
 | [[pdf](https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/FM_Track.pdf)][[code](https://github.com/elejeune11/FM-Track)] | Lejeune, E., Khang, A., **Sansom, J.**, Sacks, M. “FM-Track: A Fiducial Marker Tracking Software for Studying Cell Mechanics in a Three-Dimensional Environment.” SoftwareX 11 (2020): 100417. |
