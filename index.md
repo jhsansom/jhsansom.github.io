@@ -5,17 +5,22 @@ title: Home
 
 # About Me
 
-This website is a work in progress. Please bear with me as I add more content.
-
 <img src="https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/profile.JPG">
 
 I am currently a graduate student in the University of Michigan's Computer Science and Engineering program. Please feel free to contact me! Here are some potentially useful links:
 
+- [[Curriculum Vitae](https://raw.githubusercontent.com/jhsansom/jhsansom.github.io/master/docs/JakeSansom_CV.pdf)]
 - [Email](mailto:jhsansom@umich.edu)
 - [LinkedIn](https://www.linkedin.com/in/jhsansom/)
 - [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&user=wsoqyloAAAAJ&gmla=AJsN-F4IJi8f-SthCDCYqZHK9Wjl_z_4yaaO4py2ZPbVkFHMbdi3TY4zWfnv14pf3M3IyCSGzhaZjTDglT5jew_HJFiQ2ZufLXJWlGwMyh4oxZxIiUbF_EM)
 - [Twitter](https://twitter.com/jhsansom) 
 
+I am an aspiring computational cognitive scientist interested primarily in working and declarative memory. I currently do research in embodied AI, a field which I believe employs an empirical paradigm conducive for the study of cognition.
+
+
+# Current Research
+
+My latest research project is motivated by Lev Vygotsky's Social Interactionist Theory, which argues that children initially develop mental functions (including a command of language) through social interaction. Only later do they become adept at performing these functions on their own. In contrast, the current NLP paradigm does not typically emphasize social interaction as a method for language acquisition. My research team is working to bridge this gap by developing an experiment that requires the agent to acquire language by interacting with a knowledgable teacher in an embodied environment.
 
 
 # Papers and Publications
