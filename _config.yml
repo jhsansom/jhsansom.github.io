@@ -15,7 +15,8 @@ author:
 
 paginate:         5
 
-google_site_verification: qbdJN371JlsVDXMewWBB_xlEW5sJjgOugPTx1qSzpmE
+webmaster_verifications:
+  google: qbdJN371JlsVDXMewWBB_xlEW5sJjgOugPTx1qSzpmE
 
 plugins:
   - jekyll-relative-links
