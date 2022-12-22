@@ -1,31 +1,31 @@
-<!DOCTYPE html>
-<html lang="en-us">
+---
+layout: compress
+---
 
-  {% include head.html %}
+{% include base_path %}
 
-  <body class="theme-base-08">
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    {% include sidebar.html %}
+  <body>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-      <div class="container content">
-        {{ content }}
-      </div>
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {% include scripts.html %}
 
-    <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>
 </html>
