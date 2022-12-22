@@ -11,7 +11,7 @@ title                    : "Jake Sansom's Website"
 title_separator          : "-"
 name                     : &name "Jake Sansom"
 description              : &description "personal description"
-url                      : "https://academicpages.github.io" # changing this breaks it--probably change once push
+url                      : "https://jhsansom.github.io" # changing this breaks it--probably change once push
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jhsansom/jhsansom.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
