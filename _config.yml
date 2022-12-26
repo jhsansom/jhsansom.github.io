@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jake Sansom"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : "Graduate Student at the University of Michigan"
   location         : "Ann Arbor, MI"
   employer         :
