@@ -13,7 +13,7 @@ I am an aspiring computational cognitive scientist and a current master's studen
 
 This website is currently a work in progress. Until it is more organized, here is a link to my [curriculum vitae](https://jhsansom.github.io/files/JakeSansom_CV.pdf).
 
-# Research
+# Research Interests
 
 I aim to study intelligence by combining insights from computational neuroscience and artificial intelligence. Various capabilities are hallmarks of intelligence (e.g., the use of language). I aim to (1) identify and model these hallmark capabilities at a high level and (2) engineer algorithms that possess these capabilities. By doing so, I hope to simultaneously construct more effective AI systems while also gaining insights into the structure of biological cognition.
 
