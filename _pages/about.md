@@ -9,9 +9,8 @@ redirect_from:
 ---
 
 Welcome to my homepage! Here is some brief information about me:
-- I am currently a master's student in computer science at the University of Michigan. I will be graduating in May of 2024.
-- I am currently completing a research internship at [LG AI Research](https://www.lgresearch.ai/) under [Professor Honglak Lee](https://web.eecs.umich.edu/~honglak/). My mentors are Drs. [Dong-Ki Kim](https://dkkim93.github.io/) and [Jaekyeom Kim](https://jaekyeom.github.io/).
-- I am a member of [Professor Joyce Chai's](https://web.eecs.umich.edu/~chaijy/) [Situated Language and Embodied Dialogue (SLED) Lab](https://sled.eecs.umich.edu/) at the University of Michigan. My mentor is [Ziqiao Ma](https://mars-tin.github.io/).
+- I am an incoming Ph.D. student in computer science at the University of Michigan. I will be co-advised by Professors [Honglak Lee](https://web.eecs.umich.edu/~honglak/) and [Joyce Chai](https://web.eecs.umich.edu/~chaijy/).
+- I am currently completing a research internship at [LG AI Research](https://www.lgresearch.ai/) studying sequential decision making for web agents. My mentors are Drs. [Dong-Ki Kim](https://dkkim93.github.io/) and [Jaekyeom Kim](https://jaekyeom.github.io/).
 - Here is a link to my [curriculum vitae](https://jhsansom.github.io/files/JakeSansom_CV.pdf). 
 
 # Interests
@@ -22,8 +21,9 @@ Namely, I am interested in the processes of **reasoning** that enable humans to 
 
 # Highlights
 
-- [[Repo Link](https://github.com/jhsansom/SyCoMode)] In my (admittedly limited) free time, I have been working on a project to mimic the power of in-context learning within the weights of a large language model.
+- [[Paper Link](https://openreview.net/forum?id=oE35y5hp5p)] For a recent CVPR workshop paper titled DriVLMe, I utilized GPT-4V to enable autonomous decision making in a self-driving car.
 - [[Paper Link](https://arxiv.org/abs/2310.19619)] I helped publish a paper at EMNLP 2023 on LLMs' capacity for Theory of Mind (reasoning about the mental states of others).
+- [[Repo Link](https://github.com/jhsansom/SyCoMode)] In my (admittedly limited) free time, I have been working on a project to mimic the power of in-context learning within the weights of a large language model.
 
 # Brief Biography
 
