@@ -21,7 +21,7 @@ Namely, I am interested in the processes of **reasoning** that enable humans to 
 
 # Highlights
 
-- [[Paper Link](https://openreview.net/forum?id=oE35y5hp5p)] For a recent CVPR workshop paper titled DriVLMe, I utilized GPT-4V to enable autonomous decision making in a self-driving car.
+- [[Paper Link](https://openreview.net/forum?id=oE35y5hp5p)] For a recent paper titled DriVLMe (IROS 2024), I utilized GPT-4V to enable autonomous decision making in a self-driving car.
 - [[Paper Link](https://arxiv.org/abs/2310.19619)] I helped publish a paper at EMNLP 2023 on LLMs' capacity for Theory of Mind (reasoning about the mental states of others).
 - [[Repo Link](https://github.com/jhsansom/SyCoMode)] In my (admittedly limited) free time, I have been working on a project to mimic the power of in-context learning within the weights of a large language model.
 
