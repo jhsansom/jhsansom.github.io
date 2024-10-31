@@ -8,22 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage! Here is some brief information about me:
-- I am an incoming Ph.D. student in computer science at the University of Michigan. I will be co-advised by Professors [Honglak Lee](https://web.eecs.umich.edu/~honglak/) and [Joyce Chai](https://web.eecs.umich.edu/~chaijy/).
-- I am currently completing a research internship at [LG AI Research](https://www.lgresearch.ai/) studying sequential decision making for web agents. My mentors are Drs. [Dong-Ki Kim](https://dkkim93.github.io/) and [Jaekyeom Kim](https://jaekyeom.github.io/).
-- Here is a link to my [curriculum vitae](https://jhsansom.github.io/files/JakeSansom_CV.pdf). 
+Welcome to my homepage! I am a Ph.D. student at the University of Michigan, co-advised by Professors [Honglak Lee](https://web.eecs.umich.edu/~honglak/) and [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). I am developing AI systems that emulate and model the unique manner in which humans learn. Namely, I aim to computationally model the reasoning processes and memory systems that enable humans to learn from direct instruction and small amounts of experience. 
 
-# Interests
-
-I am very interested in intelligence, both artificial and biological. I hope to develop computational systems that emulate the unique manner in which humans learn. 
-
-Namely, I am interested in the processes of **reasoning** that enable humans to **infer general truths about the world from small amounts of evidence**. 
+# Curriculum Vitae
+Here is a [link to my curriculum vitae](https://jhsansom.github.io/files/JakeSansom_CV.pdf). 
 
 # Highlights
 
 - [[Paper Link](https://openreview.net/forum?id=oE35y5hp5p)] For a recent paper titled DriVLMe (IROS 2024), I utilized GPT-4V to enable autonomous decision making in a self-driving car.
 - [[Paper Link](https://arxiv.org/abs/2310.19619)] I helped publish a paper at EMNLP 2023 on LLMs' capacity for Theory of Mind (reasoning about the mental states of others).
-- [[Repo Link](https://github.com/jhsansom/SyCoMode)] In my (admittedly limited) free time, I have been working on a project to mimic the power of in-context learning within the weights of a large language model.
 
 # Brief Biography
 
