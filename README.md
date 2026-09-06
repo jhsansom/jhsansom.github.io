@@ -18,11 +18,36 @@ See more info at https://academicpages.github.io/
 
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
+### Linux
+
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
 1. Run `bundle clean` to clean up the directory (no need to run `--force`)
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+
+### macOS
+
+macOS ships its own Ruby (2.6) which this repo's `Gemfile.lock` is pinned to, but two OS-level quirks get in the way of a plain `bundle install` / `jekyll serve`:
+
+1. **Native gem compile error (`config.h` missing for `universal-darwinNN`)** — happens when the Xcode Command Line Tools are older than your current macOS version, so their bundled Ruby SDK headers don't have a folder matching your OS's Darwin version. Check the version Ruby is looking for with `ruby -e 'puts RbConfig::CONFIG["arch"]'`, find the folder that *does* exist under:
+   `/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/`
+   and symlink the missing one to it, e.g. if `universal-darwin23` exists but `universal-darwin24` is needed:
+   ```bash
+   sudo ln -s .../ruby-2.6.0/universal-darwin23 .../ruby-2.6.0/universal-darwin24
+   ```
+   (This is safe and reversible — remove the symlink with `sudo rm` to undo it.)
+1. **`Invalid US-ASCII character` error from `jekyll serve`** — your shell's locale isn't set to UTF-8. Export it before running any Jekyll commands: `export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8`.
+
+Steps:
+
+1. Clone the repository and make updates as detailed above.
+1. Apply the Xcode CLT symlink workaround above if `bundle install` fails with a `config.h` / native extension build error.
+1. Install gems into the project folder (keeps them out of system Ruby): `bundle install --path vendor/bundle`
+1. `export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8`
+1. Run `bundle exec jekyll serve --port 4001` (use `--port` to pick any free port) to generate the HTML and serve it at `localhost:4001`.
+   - Note: `bundle exec jekyll liveserve` (via the `hawkins` gem) crashes on this Ruby/Jekyll combo with a `NoMethodError` in `conditionally_inject_charset` — use plain `jekyll serve` instead. This means no auto-reload: after editing content, save the file and refresh the browser tab (Jekyll rebuilds the site automatically on save; you just won't get a live-reload push).
+1. To stop the server later: `pkill -f "jekyll serve"`.
 
 # Changelog -- bugfixes and enhancements
 
