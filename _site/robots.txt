@@ -1,1 +1,1 @@
-Sitemap: https://jhsansom.github.io/sitemap.xml
+Sitemap: http://0.0.0.0:4001/sitemap.xml
