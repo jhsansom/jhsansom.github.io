@@ -51,8 +51,9 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    margin-top: 1.8em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid $link-color;
   }
 
   p, li, dl {
@@ -81,6 +82,49 @@
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
+    }
+  }
+
+  ul, ol {
+    margin: 1.5em 0;
+    padding-left: 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.85em;
+    line-height: 1.6;
+    list-style: none;
+
+    &::before {
+      content: "\25B8";
+      position: absolute;
+      left: 0;
+      color: $link-color;
+      font-weight: bold;
+    }
+  }
+
+  .highlight-badge {
+    display: inline-block;
+    background-color: mix(#000, $background-color, 8%);
+    color: $link-color;
+    font-size: 0.55em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.1em 0.5em;
+    border-radius: 999px;
+    margin-left: 0.4em;
+    text-decoration: none;
+    vertical-align: 0.25em;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: mix(#000, $background-color, 16%);
+      color: $link-color;
+      text-decoration: none;
     }
   }
 
