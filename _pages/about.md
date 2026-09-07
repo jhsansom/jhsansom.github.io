@@ -15,8 +15,8 @@ Here is a [link to my curriculum vitae](https://jhsansom.github.io/files/JakeSan
 
 ## Highlights
 
-- My current project, focused on evaluating LLMs' ability to learn via naturalistic interactions with human users, was recently accepted into the NeurIPS 2025 [Workshop on Multi-Turn Interactions in LLMs](https://workshop-multi-turn-interaction.github.io/). <a class="highlight-badge" href="https://openreview.net/pdf?id=dLeIT1YigB" target="_blank" rel="noopener">Paper</a>
-- I helped publish a paper in ACL 2025 that utilizes Read-Eval-Print Loops (REPLs) to structure LLM planning on a variety of domains. <a class="highlight-badge" href="https://aclanthology.org/2025.acl-long.994.pdf" target="_blank" rel="noopener">Paper</a>
+- I am co-organizing the NeurIPS 2026 [Workshop on Test-Time Continual Learning](https://ttcl-agents.github.io/).
+- My project, focused on evaluating LLMs' ability to learn via naturalistic interactions with human users, was accepted into the NeurIPS 2025 [Workshop on Multi-Turn Interactions in LLMs](https://workshop-multi-turn-interaction.github.io/). <a class="highlight-badge" href="https://openreview.net/pdf?id=dLeIT1YigB" target="_blank" rel="noopener">Paper</a>
 - I helped publish a paper at EMNLP 2023 on LLMs' capacity for Theory of Mind (reasoning about the mental states of others). <a class="highlight-badge" href="https://aclanthology.org/2023.findings-emnlp.72.pdf" target="_blank" rel="noopener">Paper</a>
 
 ## Brief Biography
