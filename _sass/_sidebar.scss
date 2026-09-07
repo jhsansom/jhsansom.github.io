@@ -12,6 +12,10 @@
 
   @include clearfix();
   margin-bottom: 1em;
+  padding: 1.25em;
+  background-color: mix(#000, $background-color, 8%);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -25,9 +29,6 @@
   }
 
 
-  @include breakpoint($x-large) {
-    padding-right: 0;
-  }
 
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
@@ -80,16 +81,13 @@
     display: block;
     width: auto;
     height: auto;
+    text-align: center;
   }
 
   img {
+    width: 100%;
     max-width: 175px;
     border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
   }
 }
 
