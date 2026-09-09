@@ -10,15 +10,13 @@ redirect_from:
 
 Welcome to my homepage! I am a Ph.D. candidate studying computer and cognitive science at the University of Michigan. I am co-advised by Professors [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) and [Honglak Lee](https://web.eecs.umich.edu/~honglak/). I aim to computationally model the reasoning processes and memory systems that enable humans to learn from direct instruction and small amounts of experience. 
 
-## Curriculum Vitae
 Here is a [link to my curriculum vitae](https://jhsansom.github.io/files/JakeSansom_CV.pdf). (Last updated September 2026)
 
-## Highlights
+## Updates
 
 - Fall 2026: I am co-organizing the NeurIPS 2026 [Workshop on Test-Time Continual Learning](https://ttcl-agents.github.io/).
 - Summer 2026: I passed my preliminary exam and advanced to candidacy!
 - Fall 2025: My project, focused on evaluating LLMs' ability to learn via naturalistic interactions with human users, was accepted into the NeurIPS 2025 [Workshop on Multi-Turn Interactions in LLMs](https://workshop-multi-turn-interaction.github.io/). <a class="highlight-badge" href="https://openreview.net/pdf?id=dLeIT1YigB" target="_blank" rel="noopener">Paper</a>
-- Fall 2023: I helped publish a paper at EMNLP 2023 on LLMs' capacity for Theory of Mind (reasoning about the mental states of others). <a class="highlight-badge" href="https://aclanthology.org/2023.findings-emnlp.72.pdf" target="_blank" rel="noopener">Paper</a>
 
 ## Brief Biography
 
